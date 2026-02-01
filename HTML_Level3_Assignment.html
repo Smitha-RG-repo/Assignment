@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       #tt{
+             /* border-collapse: collapse; */
+            width: 300px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #0b1120;
+            color: white;
+            text-align: center;
+            /* margin: 10px;  */
+           padding-right: 15px;
+           padding-left: 15px;
+           padding-bottom:15px;
+            
+        }
+       /* td{
+            border: solid 25px bisque;
+            padding: 2px;
+        } */
+        #aa{
+            border: solid 2px bisque;
+            padding: 8px;
+            font-size: 20px;
+        }
+        #bb{
+            font-size: 20px;
+           color: bisque;
+        }
+        
+    </style>
+</head>
+<body>
+    <h4>Recreate the following table using HTML :</h4>
+
+    <table id="tt">
+        
+        <tr>
+             <th id="bb"   colspan="4" style="color: darkgray;" >Student Information</th>
+        </tr>
+        <tr>
+        <th id="aa" rowspan="6">Info</th>
+        <th  id="aa" rowspan="2">Name</th>
+        <th id="aa" colspan="2">Address</th>
+    </tr>
+        <tr>
+        <th id="aa" >city</th>
+        <th id="aa" >House</th>
+    </tr>
+ 
+    
+        <tr>
+        <td  id="aa" >A</td>
+        <td id="aa" >Delhi</td>
+        <td id="aa" >1</td>
+    </tr>
+        <tr>
+         <td id="aa" >B</td>
+        <td id="aa">Mumbai</td>
+        <td id="aa">2</td>
+    </tr>
+        <tr>
+        <td id="aa">C</td>
+        <td id="aa">Kolkata</td>
+        <td id="aa">3</td>
+    </tr>
+        <tr>
+        <td id="aa">D</td>
+        <td id="aa">Pune</td>
+        <td id="aa">4</td>
+    </tr>
+  
+    </table>
+    
+    <h4> Recreate the following form using HTML :</h4>
+<form action="./submit">
+    <label for="aa">Name:</label>
+    <input type="text">
+    <p>Sex: <input type="radio" name="cc" > Male  <input type="radio" name="cc"> Female </p>
+    Country: <select name="ee" id="dd">
+    <option value="aa">Select an option</option> 
+    <option value="a"> India</option>
+    <option value="b"> Nepal</option>
+    <option value="c">USA</option>
+    <option value="d"> Canada</option>
+    </select>
+    <p>
+    <div>Message:</div>
+<textarea name="rr" id="ss" rows="5" cols="35"></textarea>
+    </p>
+    <input type="checkbox"> Subscribe?
+  <p>
+    <button>Submit</button>
+   </p>
+   </form>
+
+   <h4> Recreate the following form using HTML :</h4>
+   <form action="./sumit" method="post">
+   <h1>Feedback Form</h1>
+   <p>
+<label for="aa">Name:</label>
+<input type="text" placeholder="Write your name" required>
+   </p>
+  <p>
+    <label for="aa">Email:</label>
+    <input type="text" placeholder="Write your email" required>
+  </p>
+    <div>Message:</div>
+    <textarea name="aa" id="dd" rows="4" cols="25"></textarea>
+    <div>
+        <br>
+  <label for="ww">Rate us out of 5:</label><br>
+  <input type="radio" name="1">1<br>
+  <input type="radio" name="1">2<br>
+  <input type="radio" name="1">3<br>
+  <input type="radio" name="1">4<br>
+  <input type="radio" name="1">5
+</div>
+   <br>   
+<button>Send your message!</button>
+   <input type="reset">
+ </form>
+   
+</body>
+</html>

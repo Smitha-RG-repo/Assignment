@@ -1,0 +1,46 @@
+#mainTopic{
+    color: blue;
+}
+*{
+    text-align: center;
+}
+h1,h3,h5{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.aa{
+    background-color:cornflowerblue;
+    color: white;
+}
+button{
+    background-color: purple;
+    color: azure;
+   }
+button:hover{
+    background-color: yellow;
+}
+h1::first-letter{
+color:red;
+}
+input:checked+label{
+    color: darkgreen
+}
+h6{
+    background-color: blue;
+}
+#mainContent{
+    background-color: blueviolet;
+
+}
+.main{
+    background-color: brown;
+}
+div .main{
+    background-color: coral;
+}
+
+p:nth-of-type(odd){
+    color: yellow;
+}
+p:nth-of-type(even){
+    color: red;
+}
